@@ -5,7 +5,7 @@ const btn = document.querySelector(".bttn");
 btn.addEventListener("click", async (e) => {
   e.preventDefault();
   try {
-    const word = document.querySelector("#word").value.trim();
+    const word = document.querySelector(".word").value;
     const data = await fetch(`${url}/${word}`, {
       method: "GET",
       headers: {
@@ -39,5 +39,6 @@ const renderWordMeaning = (term) => {
     }"><i class="bi bi-volume-up"></i></a>
     </div>
   `;
+  document.querySelector(".word").value = "";
 };
 // Classes named with audio and example there is no data populated for some word search because there is no data provided in the api

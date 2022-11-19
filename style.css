@@ -16,6 +16,8 @@ body {
 .text {
   text-align: center;
   color: #414f11;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .bttn {
