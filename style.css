@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  border-radius: 15px;
+  font-family: "Raleway", sans-serif;
+  background: linear-gradient(to right, #f7f8f8, #acbb78);
+}
+
+.text {
+  text-align: center;
+  color: #414f11;
+}
+
+.bttn {
+  height: 40px;
+  width: 30%;
+  background-color: olive;
+  color: aliceblue;
+  transition: all 0.3s;
+}
+
+.bttn:hover {
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
+  background-color: rgb(224, 224, 174);
+  transform: translateX(3px);
+  color: #474f29;
+}
+
+.bttn:active {
+  box-shadow: 0 8px 14px rgba(0, 0, 0, 0.3);
+  background-color: rgb(224, 224, 174);
+  transform: translateX(1px);
+  color: #474f29;
+}
+
+.bttn:focus {
+  outline: none;
+  border: none;
+}
+
+.main-container {
+  margin: 0 auto;
+}
+
+.sub-container {
+  padding: 25px;
+  margin-top: 40px;
+  display: flex;
+  flex-flow: column wrap;
+  background-color: #f7f8f8;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+}
+
+.grammar {
+  font-style: italic;
+  border-bottom: 1px solid olivedrab;
+  padding-bottom: 5px;
+}
+
+mark {
+  background-color: #cad5a3;
+  font-weight: 300;
+}
+
+.audio {
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(53, 71, 22);
+}
+
+.audio:hover {
+  color: rgb(130, 148, 101);
+}
