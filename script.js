@@ -40,4 +40,4 @@ const renderWordMeaning = (term) => {
     </div>
   `;
 };
-// For class with audio and example there is no data populated for some word search because there is no data provided in the api
+// Classes named with audio and example there is no data populated for some word search because there is no data provided in the api
